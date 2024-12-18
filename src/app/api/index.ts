@@ -1,7 +1,8 @@
+import 'dotenv/config'
 
 export async function newsApi() {
     const data = await fetch(
-    `https://newsapi.org/v2/everything?q=spain&language=es&apiKey=${process.env.API_KEY}`
+    `https://newsapi.org/v2/everything?q=spain&language=es&apiKey=${process.env.NEXT_PUBLIC_API_KEY!}`
   );
 
   const newsRoot = await data?.json();
