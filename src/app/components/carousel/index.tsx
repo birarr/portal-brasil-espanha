@@ -26,8 +26,8 @@ export function CarouselSize({ data }: CarouselSizeProps) {
     >
       <CarouselContent>
         {data?.map((item, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
+          <CarouselItem key={index}>
+            <div className="p-1 flex justify-center">
               <Card>
                 <CardContent
                   className="flex flex-col justify-end aspect-square items-center p-6"
