@@ -32,7 +32,7 @@ export function CarouselSize({ data }: CarouselSizeProps) {
                 <CardContent
                   className="flex flex-col justify-end aspect-square items-center p-6"
                   style={{
-                    backgroundImage: `url(${item?.urlToImage})`,
+                    backgroundImage: `url(${item?.image_url})`,
                     backgroundPosition: "center",
                   }}
                 >

@@ -25,12 +25,11 @@ export type NewsProps = {
 
 export type NewsItemsProps = {
 author: string
-content?: string
 description?: string
 title: string
 url: string
-urlToImage: string
-publishedAt: string
+image_url: string
+published_at: string
 source: NewsSourceProps
 }
 
