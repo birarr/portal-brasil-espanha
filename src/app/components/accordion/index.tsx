@@ -13,9 +13,11 @@ export const AccordionComponent = ({ type, data }: AccordionProps) => {
       <AccordionItem value="item-1">
         <AccordionTrigger>{type}</AccordionTrigger>
         <AccordionContent className="flex gap-2">
-          {data?.map((item2, index) => (
-            <AccordionComponentItem data={item2} key={index} />
-          ))}
+          <div className="flex flex-wrap gap-1">
+            {data?.map((item2, index) => (
+              <AccordionComponentItem data={item2} key={index} />
+            ))}
+          </div>
         </AccordionContent>
       </AccordionItem>
     </Accordion>

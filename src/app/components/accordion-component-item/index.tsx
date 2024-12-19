@@ -22,7 +22,9 @@ export const AccordionComponentItem = ({ data }: AccordionDataProps) => {
                 width={60}
                 className="rounded-lg"
               />
-              <p className="md:hidden">{data?.name}</p>
+              <p className="md:hidden overflow-hidden max-w-[60px]">
+                {data?.name}
+              </p>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
