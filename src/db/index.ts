@@ -176,4 +176,39 @@ export const db: AccordionProps[] = [
     },
 ],
     },
+                     {
+    type: 'Internet/Fibra',
+    data: [
+    {
+        name: 'Digi',
+        image: 'https://tarifas.com/build/img/marcas160x160/digi.jpg',
+        href: 'https://www.digimobil.es/fibra-optica/'
+    },
+        {
+        name: 'Orange',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/640px-Orange_logo.svg.png',
+        href: 'https://www.orange.es/tarifas/internet-en-casa'
+    },
+            {
+        name: 'Jazztel',
+        image: 'https://yt3.googleusercontent.com/Kzff5VBurG1YIWldw-_bSTeaH2T_hi3sHXKvCPxr9omx1IlfNoqV_GA2yGvbfMb8guHD9ehTzg=s900-c-k-c0x00ffffff-no-rj',
+        href: 'https://www.jaztel.es/'
+    },
+                {
+        name: 'Vodafone',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qsS4m_tE7ZJwh0McRcSWWg6gnI0_gsaLdg&s',
+        href: 'https://www.vodafone.es/c/particulares/es/productos-y-servicios/fibra-optica-adsl/'
+    },
+                {
+        name: 'Lowi',
+        image: 'https://i0.wp.com/www.lowidistribuidor.com/wp-content/uploads/2022/04/DISTRIBUIDOR-OFICIAL-2.png?fit=500%2C500&ssl=1',
+        href: 'https://www.lowi.es/solo-fibra/'
+    },
+                {
+        name: 'Yoigo',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLpZtD_C3iIFK98XAfctZ555q7xs4wGFuNSQ&s',
+        href: 'https://www.yoigo.com/fibra-optica'
+    },
+],
+    },
 ]
