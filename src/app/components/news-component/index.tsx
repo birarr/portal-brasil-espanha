@@ -18,7 +18,7 @@ export const NewsComponent = () => {
   useEffect(() => {
     fetchData();
   }, [fetchData]);
-  console.log({ news });
+
   return (
     <div>
       <CarouselSize data={news} />

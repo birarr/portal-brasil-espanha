@@ -16,7 +16,6 @@ type CarouselSizeProps = {
 };
 
 export function CarouselSize({ data }: CarouselSizeProps) {
-  console.log({ data });
   return (
     <Carousel
       opts={{

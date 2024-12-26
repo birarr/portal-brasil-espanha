@@ -79,6 +79,11 @@ export const db: AccordionProps[] = [
         image: 'https://aulasdeemploytrabajo.wordpress.com/wp-content/uploads/2022/03/fabrica-nacional-de-moneda-y-timbre-convoca-75-plazas-para-auxiliares-de-produccion.jpg',
         href: 'https://www.sede.fnmt.gob.es/certificados/persona-fisica'
     },
+                {
+        name: 'Visa calculator',
+        image: 'https://zabeeltravel.ae/wp-content/uploads/2021/06/Schengen-Visa-Dubai.jpg',
+        href: 'https://www.visa-calculator.com'
+    },
 ],
     },
      {

@@ -4,6 +4,8 @@ import { db } from "@/db";
 import { Navbar } from "./components/navbar";
 import { Separator } from "@/components/ui/separator";
 import { NewsComponent } from "./components/news-component";
+import { ContactUs } from "./components/contact-form";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
@@ -26,6 +28,10 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <div className="mb-8">
+        <ContactUs />
+      </div>
+      <Footer />
     </div>
   );
 }
