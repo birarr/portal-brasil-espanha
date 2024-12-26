@@ -67,10 +67,15 @@ export const db: AccordionProps[] = [
     {
         name: 'Extranjería',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w1PkmQPu7VLbSw16ukmvz0Mx_JiRP6AEsoYhq3QxEf70A_bNSvDa7urpJobYEQjH6EA&usqp=CAU',
-        href: '//https://sede.administracionespublicas.gob.es/procedimientos/index/categoria/34'
+        href: 'https://sede.administracionespublicas.gob.es/procedimientos/index/categoria/34'
     },
         {
-        name: 'Fotocasa',
+        name: 'Cita extranjería',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w1PkmQPu7VLbSw16ukmvz0Mx_JiRP6AEsoYhq3QxEf70A_bNSvDa7urpJobYEQjH6EA&usqp=CAU',
+        href: 'https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus'
+    },
+        {
+        name: 'DGT',
         image: 'https://yt3.googleusercontent.com/SCiv-_oMm9yzDxE4NqXPs8FZDV7EXo6uyelxZaHQCCYDl-4i3Z3nmQ1Fkp3745u_-LSbHEgZ=s900-c-k-c0x00ffffff-no-rj',
         href: 'https://www.dgt.es/inicio/'
     },

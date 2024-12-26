@@ -34,6 +34,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="Qr5pixkKtmUbBt9GkFon-gI6xikqQbene9rBtnpauE4"
         />
+        <meta name="keywords" content="portal, brasil, espanha" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
