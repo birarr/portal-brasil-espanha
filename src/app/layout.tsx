@@ -19,6 +19,15 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Portal Brasil Espanha",
   description: "Informações da Espanha para brasileiros",
+  keywords: [
+    "Portal Brasil Espanha",
+    "Imigração Espanha",
+    "Turismo Espanha",
+    "visto espanha",
+  ],
+  openGraph: {
+    description: "Informações da Espanha para brasileiros",
+  },
 };
 
 export default function RootLayout({
