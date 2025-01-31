@@ -1,11 +1,9 @@
 import { getTutorialById } from "@/db/queries";
 import Image from "next/image";
+type Params = Promise<{ tutorialsId: string }>;
 
-export default async function TutorialDetails({
-  params,
-}: {
-  params: { tutorialsId: string };
-}) {
+export default async function TutorialDetails(props: { params: Params }) {
+  const params = await props.params;
   const tutorialId = params.tutorialsId;
   const tutorial = await getTutorialById(tutorialId);
 
