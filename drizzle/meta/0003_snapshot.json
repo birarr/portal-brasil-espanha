@@ -1,0 +1,131 @@
+{
+  "id": "2751a672-5b14-48b7-bfbf-4fbfbc575019",
+  "prevId": "db3d4891-1df8-4ce4-9d74-aecb5d614663",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.tutorials": {
+      "name": "tutorials",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "titleImage": {
+          "name": "titleImage",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "imageOne": {
+          "name": "imageOne",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "imageTwo": {
+          "name": "imageTwo",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "imageThree": {
+          "name": "imageThree",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "imageFour": {
+          "name": "imageFour",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "textOne": {
+          "name": "textOne",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "textTwo": {
+          "name": "textTwo",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "textThree": {
+          "name": "textThree",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "keywords": {
+          "name": "keywords",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "link1": {
+          "name": "link1",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "link2": {
+          "name": "link2",
+          "type": "varchar",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

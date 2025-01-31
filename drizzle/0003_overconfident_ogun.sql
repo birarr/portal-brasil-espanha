@@ -1,0 +1,1 @@
+ALTER TABLE "tutorials" ADD COLUMN "imageFour" varchar NOT NULL;

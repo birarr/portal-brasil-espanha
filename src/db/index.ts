@@ -74,6 +74,11 @@ export const db: AccordionProps[] = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w1PkmQPu7VLbSw16ukmvz0Mx_JiRP6AEsoYhq3QxEf70A_bNSvDa7urpJobYEQjH6EA&usqp=CAU',
         href: 'https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus'
     },
+            {
+        name: 'Tram. homologação de estudos',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS15KPhz2nXqIsLI1ksFsXol2TBdyx_XegueQ&s',
+        href: 'https://sede.educacion.gob.es/portada.html'
+    },
         {
         name: 'DGT',
         image: 'https://yt3.googleusercontent.com/SCiv-_oMm9yzDxE4NqXPs8FZDV7EXo6uyelxZaHQCCYDl-4i3Z3nmQ1Fkp3745u_-LSbHEgZ=s900-c-k-c0x00ffffff-no-rj',
